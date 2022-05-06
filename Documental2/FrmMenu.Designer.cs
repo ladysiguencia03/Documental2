@@ -97,6 +97,7 @@
             this.webEditor.Name = "webEditor";
             this.webEditor.Size = new System.Drawing.Size(1159, 305);
             this.webEditor.TabIndex = 0;
+            this.webEditor.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webEditor_DocumentCompleted_2);
             // 
             // panel2
             // 

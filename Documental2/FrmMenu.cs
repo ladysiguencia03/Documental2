@@ -380,5 +380,10 @@ namespace Documental2
             {
             }
         }
+
+        private void webEditor_DocumentCompleted_2(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
     }
 }
